@@ -1,0 +1,5 @@
+# Configuración del kernel 
+CONFIG_KVM=y 
+CONFIG_ZRAM=y 
+CONFIG_CPU_FREQ_GOV_PERFORMANCE=y 
+CONFIG_GRSECURITY=y

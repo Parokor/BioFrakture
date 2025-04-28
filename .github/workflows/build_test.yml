@@ -1,0 +1,10 @@
+name: BioFrakture CI/CD
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compile Kernel
+        run: |
+          cd NecroMamba/kernel_quantum
+          make -j4

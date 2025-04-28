@@ -1,0 +1,6 @@
+1. Desbloquear bootloader: 
+    fastboot oem unlock 
+2. Flashear kernel: 
+    fastboot flash boot necrokernel_v8.bin 
+3. Reiniciar: 
+    fastboot reboot
